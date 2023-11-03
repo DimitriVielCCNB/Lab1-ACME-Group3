@@ -1,21 +1,26 @@
 
 body, h1, h2, p, ul, li {
     margin: 0;
-    padding: 0;
+/*     padding: 0; */
 }
 
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
+    height: 780px;
+     position: relative;
 }
 
 header {
-    text-align: center;
+    text-align: left;
     padding: 20px;
     background-color: #ffcc00;
     font-weight: bol;
+    height: 15%;
 }
-
+header img {
+    text-align: center;
+}
 nav {
     background-color: #ffcc00;
 }
@@ -41,8 +46,9 @@ ul.top-list a {
 
 main {
     background-color: #fff;
-    padding: 20px;
+    padding: 146px;
 }
+
 
 section {
     text-align: center;
@@ -66,25 +72,39 @@ aside {
     padding: 20px;
 }
 
-ul.my-list {
+ol,ul.my-list {
     list-style-type: none;
+    padding-top: 27px;
+    text-align: center;
 }
 
-ul.my-list li {
+
+ol li,ul.my-list li {
     padding: 10px;
+    display:inline; 
+  
 }
 
-ul.my-list a {
+ol li ,ul.my-list li a {
     text-decoration: none;
     color: #000;
-    font-weight: bold;
-}
+    font-weight: bold;  
+    align-items: center;
+    margin-top: 10px;
+    padding-top: 10px;
+   
 
+}
+li a{
+    margin-top: 10px;
+    padding-top: 10px;
+}
 footer {
-    text-align: center;
+    width: 100%; 
+    height: 15%;
     background-color: #ffcc00;
-    padding: 10px;
-    font-size: 0.8em;
+  
+   
 }
 
 .description {
@@ -104,3 +124,22 @@ nav {
     max-width: 300px; 
     margin-top: 10px; 
 }
+
+as
+/* .bottomleft {
+    position: relative;
+    bottom: 0px;
+    background-color: #ffcc00;
+    font-size: 18px;
+  }  */ 
+div .fixed {
+    position: fixed;
+    bottom: 0;
+    border: 3px solid #73AD21;
+    text-align: center;
+    font-size: 0.8em;
+    height: 600px;
+    margin-top: auto;
+    font-weight: bold;
+    padding: 30px;
+}  
