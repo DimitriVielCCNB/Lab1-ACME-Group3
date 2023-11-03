@@ -1,1 +1,100 @@
 
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffcc00;
+}
+
+nav {
+    background-color: #ffcc00;
+}
+
+ul.top-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    
+}
+
+ul.top-list li {
+    display: inline;
+}
+
+ul.top-list a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    padding: 10px;
+}
+
+main {
+    background-color: #fff;
+    padding: 20px;
+}
+
+section {
+    text-align: center;
+}
+
+img[src$='Caution ahead.JPG'] {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.special-text {
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+aside {
+    background-color: #ffcc00;
+    padding: 20px;
+}
+
+ul.my-list {
+    list-style-type: none;
+}
+
+ul.my-list li {
+    padding: 10px;
+}
+
+ul.my-list a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    background-color: #ffcc00;
+    padding: 10px;
+    font-size: 0.8em;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.description p {
+    max-width: 300px; 
+    margin-top: 10px; 
+}
