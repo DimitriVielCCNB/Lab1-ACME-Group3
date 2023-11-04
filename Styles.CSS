@@ -1,27 +1,21 @@
-
 body, h1, h2, p, ul, li {
     margin: 0;
-/*     padding: 0; */
+    padding: 0;
 }
 
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
-    height: 780px;
-     position: relative;
 }
 
 header {
-    text-align: left;
+    text-align: center;
+    font-weight: bold;
     padding: 20px;
     background-color: #ffcc00;
-    font-weight: bol;
-    height: 15%;
-}
-header img {
-    text-align: center;
     height: 100px
 }
+
 nav {
     background-color: #ffcc00;
 }
@@ -45,21 +39,73 @@ ul.top-list a {
     padding: 10px;
 }
 
+.join-text {
+    display: inline;
+    margin-right: 10px; 
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+
+.form-group label, 
+.form-group input, 
+.form-group select, 
+.form-group textarea {
+    font-family: "Roboto Mono"; }
+
+h1 {
+    display: inline; 
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+
 main {
     background-color: #fff;
-    padding: 146px;
+    padding: 20px;
+    
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+
+label {
+    display: block; 
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0077B5;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 
 section {
     text-align: center;
-}
-
-img[src$='Caution ahead.JPG'] {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
+    
 }
 
 .special-text {
@@ -73,39 +119,25 @@ aside {
     padding: 20px;
 }
 
-ol,ul.my-list {
+ul.my-list {
     list-style-type: none;
-    padding-top: 27px;
-    text-align: center;
 }
 
-
-ol li,ul.my-list li {
+ul.my-list li {
     padding: 10px;
-    display:inline; 
-  
 }
 
-ol li ,ul.my-list li a {
+ul.my-list a {
     text-decoration: none;
     color: #000;
-    font-weight: bold;  
-    align-items: center;
-    margin-top: 10px;
-    padding-top: 10px;
-   
+    font-weight: bold;
+}
 
-}
-li a{
-    margin-top: 10px;
-    padding-top: 10px;
-}
 footer {
-    width: 100%; 
-    height: 15%;
+    text-align: center;
     background-color: #ffcc00;
-  
-   
+    padding: 10px;
+    font-size: 0.8em;
 }
 
 .description {
@@ -125,22 +157,3 @@ nav {
     max-width: 300px; 
     margin-top: 10px; 
 }
-
-as
-/* .bottomleft {
-    position: relative;
-    bottom: 0px;
-    background-color: #ffcc00;
-    font-size: 18px;
-  }  */ 
-div .fixed {
-    position: fixed;
-    bottom: 0;
-    border: 3px solid #73AD21;
-    text-align: center;
-    font-size: 0.8em;
-    height: 600px;
-    margin-top: auto;
-    font-weight: bold;
-    padding: 30px;
-}  
