@@ -1,4 +1,4 @@
-body, h1, h2, p, ul, li {
+body, h1, h2,  ul, li { /* delete p, to  adapte paragraphe in explosifs page*/
     margin: 0;
     padding: 0;
 }
