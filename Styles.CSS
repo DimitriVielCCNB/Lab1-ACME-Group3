@@ -5,7 +5,7 @@ body, h1, h2,  ul, li { /* delete p, to  adapte paragraphe in explosifs page*/
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #f1e9e3;
     height: 780px;      /* added by lahcen in 4th november*/
     position: relative; /* added by lahcen in 4th november*/
 }
@@ -27,6 +27,7 @@ ul.top-list {
     display: flex;
     justify-content: space-around;
     padding: 10px;
+    font-size: 24px;  /* added by lahcen in 4th november*/
     
 }
 
@@ -36,7 +37,7 @@ ul.top-list li {
 
 ul.top-list a {
     text-decoration: none;
-    color: #000;
+    color: #a00400;  /* added by lahcen in 4th november*/
     font-weight: bold;
     padding: 10px;
 }
@@ -132,7 +133,7 @@ ul.my-list li {
 
 ul.my-list a {
     text-decoration: none;
-    color: #000;
+    color: #a00400;  /* added by lahcen in 4th november*/
     font-weight: bold;
 }
 
@@ -153,7 +154,7 @@ footer {
 }
 
 nav {
-    background-color: orangered;
+    background-color:#fd872c;
     color: #fff;
 }
 
@@ -187,7 +188,7 @@ ol li,ul.my-list li {
 }
 ol li ,ul.my-list li a {
     text-decoration: none;
-    color: #000;
+    color: #a00400;  /* added by lahcen in 4th november*/
     font-weight: bold;  
     align-items: center;
     margin-top: 10px;
@@ -198,4 +199,9 @@ li a{
     margin-top: 10px;
     padding-top: 10px;
   
+}
+
+ /* added by lahcen in 4th november*/
+ ul.my-list li a:hover{
+    color: white;
 }
