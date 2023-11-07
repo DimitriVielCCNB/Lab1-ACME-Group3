@@ -1,1 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sell Your Items</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="Looney.jfif" width="200" height="100">
+        <div class="description">
+            <br><br><br><br><br>
+            <p>
+                This diabolical Looney Tunes mega-corp responsible for falling anvils and other humorous disasters has created some of our best memories of cartoon mischief. In the show, Acme Corp produces everything from TNT to explosive tennis balls.
+            </p>
+        </div>
+    </header>
+
+    <nav>
+        <ul class="top-list">
+            <li><a href="SignUp.html" target="_blank">Sign up here!</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <br><br><br><br><br><br><br><br><br>
+            <img src="Bunny.jpg" width="500" height="300">
+            <div class="sell-items-form">
+                <h2>Sell Your Items</h2>
+                <p>List your items for sale and reach a wide audience!</p>
+                <form action="your_selling_script.php" method="POST">
+                    <div class="form-group">
+                        <label for="item-name">Item Name:</label>
+                        <input type="text" id="item-name" name="item-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="item-description">Item Description:</label>
+                        <textarea id="item-description" name="item-description" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="price">Price:</label>
+                        <input type="text" id="price" name="price" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-info">Contact Information:</label>
+                        <input type="text" id="contact-info" name="contact-info" required>
+                    </div>
+                    <button type="submit">List Item</button>
+                </form>
+            </div>
+            <br><br><br><br><br><br><br><br>
+        </section>
+    </main>
+
+    <footer>
+        <div class="fixed">
+            <ul class="my-list">
+                <li><a href="#">Join our Team and become a seller</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Services</a></li>
+            </ul>
+            <ol>
+                <li>ALL RIGHTS RESERVED © ACME CO.</li>
+                <li>UPDATED 2023</li>
+                <li>PROUD INTERNATIONAL SELLERS - WORLDWIDE</li>
+            </ol>
+        </div>
+    </footer>
+</body>
+</html>
 
