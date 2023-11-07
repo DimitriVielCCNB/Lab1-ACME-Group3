@@ -1,6 +1,4 @@
-*{
-    box-sizing: border-box;
-}
+
 /*style generaux*/
 body{
 margin: 0;
@@ -8,8 +6,8 @@ margin: 0;
 
 /*en-tete*/
 header{
-    background-color: #e05d06f5;
-    color:#fff; 
+    background-color: #fff;
+    color:#333; 
     text-align: center;
     padding: 20px;
 }
@@ -24,7 +22,7 @@ header{
     text-shadow:rgb (0,0,0,0.7);
 }
 .logo span{
-    color: #fff;
+    color: #333;
     font-weight: bold;
     font-size:2rem ;
 }
@@ -47,7 +45,7 @@ header{
     color: black;
 }
 /*create three equal columns*/
-.column{
+.product{
     float: left;
     width: 33.33%;
     padding: 15px;
@@ -59,8 +57,8 @@ header{
     clear: both;
 }
 /* responsive layout*/
-@media screen and (max-width:600px){
-    .column{
+@media screen and (max-width:1200px){
+    .product{
         width: 100%;
     }
 }
@@ -70,35 +68,32 @@ h2{
    margin-top: 10px;
    font-weight: bold;
 }
-#image1{
-    width: px;
-    height: 80px;
-    padding: 10px;
-    float: right;
-    margin: 10px;
-}
-
-#image2{
-width: 100px;
-height: 80px;
-padding: 10px;
-float: left ;
-margin: 10px;
-}
-#image3{
-    width: 100px;
-    height: 80px;
-    padding: 10px;
-    float:right;
-    margin: 10px;
-
-}
-
 
 p{
     font-size: 14px;
     color: #333;
 }
+div.figure{
+    border: 1px solid #ccc;
+}
+div.figure:hover{
+    border: 1px solid #777;
+}
+div .figure img{
+    width: 100%;
+    height: auto;
+}
+div.description{
+    padding: 15PX;
+    text-align: center;
+}
+
+@media screen and (max-width:500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
 /* pied de page*/
 #mainfooter{
     position: absolute;
