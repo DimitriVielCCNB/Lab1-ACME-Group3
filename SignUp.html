@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ACME Co. Sign Up</title>
+    <title>Monthly Product Catalog Signup</title>
     <link rel="stylesheet" href="Styles.css">
 </head>
 
 <body>
+
     <header>
         <img src="Looney.jfif" width="200" height="100">
         <div class="description">
@@ -21,7 +22,16 @@
     <nav>
         <ul class="top-list">
             <li><a href="SignUp.html" target="_blank">Sign up here!</a></li>
-            <!-- Add links to other sections if needed -->
+            <li><a href="SignUp.html" target="_blank">Sign up here!</a></li>
+            <li><a href="Explosifs.html" target="_blank">Explosifs</a></li>
+            <li><a href="Heavyweights.html" target="_blank">Heavy Weights</a></li>
+            <li><a href="Cutter.html" target="_blank">Cutter</a></li>
+            <li><a href="Catcher.html" target="_blank">Catcher</a></li>
+            <li><a href="Launcher.html" target="_blank">Launchers</a></li>
+            <li><a href="ModeOfTransportation.html" target="_blank">Transportation Mode</a></li>
+            <li><a href="BuildingCrayons.html" target="_blank">Building/Crayons</a></li>
+            <li><a href="RealityDistortingEquipment.html" target="_blank">Reality Distorting Equipments</a></li>       
+          
         </ul>
     </nav>
 
@@ -29,52 +39,38 @@
         <section>
             <br><br><br><br><br><br><br><br><br>
             <img src="Bunny.jpg" width="500" height="300">
-            <form class="signup-form" action="your_processing_script.php" method="POST">
-                <div class="form-group">
-                    <label for="full-name">Full Name:</label>
-                    <input type="text" id="full-name" name="full-name" required>
-                </div>
-                <div class="form-group">
-                    <label for="contact-info">Contact Information:</label>
-                    <input type="text" id="contact-info" name="contact-info" required>
-                </div>
-                <div class="form-group">
-                    <label for="product">Product to Sell:</label>
-                    <input type="text" id="product" name="product" required>
-                </div>
-                <div class="form-group">
-                    <label for="materials-used">Materials Used:</label>
-                    <input type="text" id="materials-used" name="materials-used" required>
-                </div>
-                <div class="form-group">
-                    <label for="best-time-to-contact">Best Time to Contact:</label>
-                    <input type="text" id="best-time-to-contact" name="best-time-to-contact" required>
-                </div>
-                <div class="form-group">
-                    <label for="item-description">Brief Description of Item:</label>
-                    <textarea id="item-description" name="item-description" required></textarea>
-                </div>
-                <button type="submit">Sign Up</button>
-            </form>
+            <div class="signup-form">
+                <h2>Sign Up for Our Monthly Product Catalog</h2>
+                <p>Stay updated with our latest products and offers!</p>
+                <form action="your_processing_script.php" method="POST">
+                    <div class="form-group">
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
             <br><br><br><br><br><br><br><br>
         </section>
     </main>
 
+   <aside>
+
+        <ul class="my-list">
+            <li><a href="#">Join our Team and become a seller</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">About us</a></li>
+            
+            
+           
+            
+        </ul>
+    </aside>
+
     <footer>
-        <div class="fixed">
-            <ul class="my-list">
-                <li><a href="#">Join our Team and become a seller</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Services</a></li>
-            </ul>
-            <ol>
-                <li>ALL RIGHTS RESERVED © ACME CO.</li>
-                <li>UPDATED 2023</li>
-                <li>PROUD INTERNATIONAL SELLERS - WORLDWIDE</li>
-            </ol>
-        </div>
+        <p>ALL RIGHTS RESERVED © ACME CO.</p>
+        <p>UPDATED 2023</p>
+        <p>PROUD INTERNATIONAL SELLERS - WORLDWIDE</p>
     </footer>
 </body>
 </html>
-
