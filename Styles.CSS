@@ -1,12 +1,13 @@
-
-body, h1, h2, p, ul, li {
+body, h1, h2,  ul, li { /* delete p, to  adapte paragraphe in explosifs page*/
     margin: 0;
     padding: 0;
 }
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #f1e9e3;
+    height: 780px;      /* added by lahcen in 4th november*/
+    position: relative; /* added by lahcen in 4th november*/
 }
 
 header {
@@ -26,6 +27,7 @@ ul.top-list {
     display: flex;
     justify-content: space-around;
     padding: 10px;
+    font-size: 24px;  /* added by lahcen in 4th november*/
     
 }
 
@@ -35,7 +37,7 @@ ul.top-list li {
 
 ul.top-list a {
     text-decoration: none;
-    color: #000;
+    color: #a00400;  /* added by lahcen in 4th november*/
     font-weight: bold;
     padding: 10px;
 }
@@ -66,7 +68,8 @@ h1 {
 
 main {
     background-color: #fff;
-    padding: 20px;
+    /* padding: 20px; */
+    padding: 146px; /* added by lahcen in 4th november*/
     
 }
 
@@ -130,7 +133,7 @@ ul.my-list li {
 
 ul.my-list a {
     text-decoration: none;
-    color: #000;
+    color: #a00400;  /* added by lahcen in 4th november*/
     font-weight: bold;
 }
 
@@ -139,8 +142,9 @@ footer {
     background-color: #ffcc00;
     padding: 10px;
     font-size: 0.8em;
+    width: 100%;  /* added by lahcen in 4th november*/
+    height: 15%;/* added by lahcen in 4th november*/
 }
-
 .description {
     display: flex;
     align-items: center;
@@ -150,11 +154,54 @@ footer {
 }
 
 nav {
-    background-color: orangered;
+    background-color:#fd872c;
     color: #fff;
 }
 
 .description p {
     max-width: 300px; 
     margin-top: 10px; 
+}
+/* added by lahcen in 4th november*/
+div .fixed {
+    position: fixed;
+    bottom: 0;
+    border: 3px solid #73AD21;
+    text-align: center;
+    font-size: 0.8em;
+    height: 600px;
+    margin-top: auto;
+    font-weight: bold;
+    padding: 30px;
+}  
+
+ol,ul.my-list {
+    list-style-type: none;
+    padding-top: 27px;
+    text-align: center;
+    font-size: 1.2em;
+}
+ol li,ul.my-list li {
+    padding: 10px;
+    display:inline; 
+
+}
+ol li ,ul.my-list li a {
+    text-decoration: none;
+    color: #a00400;  /* added by lahcen in 4th november*/
+    font-weight: bold;  
+    align-items: center;
+    margin-top: 10px;
+    padding-top: 10px;
+    font-size: 1.2em;
+}
+li a{
+    margin-top: 10px;
+    padding-top: 10px;
+  
+}
+
+ /* added by lahcen in 4th november*/
+ ul.my-list li a:hover{
+    color: white;
 }
