@@ -8,18 +8,34 @@
 
 
     <style>
-  
+        body {
+            font-family: Arial, sans-serif;
+            background-color:#f6b154;
+        }
+        header {
+           
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
         .container1 {
             width: 80%;
             margin: 0 auto;
             padding: 20px;
-            background-color: #fff;
+            background-color: #f6b154;
             border: 1px solid #ccc;
-            border-radius: 5px;
+            border-radius: 20px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            color: #a00400;
+        }
+        .container1 h1 {
+           text-align: center;
+           margin-left: 400px;
+           padding-bottom: 20px;
+
         }
         .product {
-            display: flex;
+            display: flex; /* Permet d'aligner l'image et le texte sur la même ligne */
             margin-bottom: 20px;
             padding: 10px;
             border: 1px solid #ccc;
@@ -28,14 +44,14 @@
             color: #a00400;
         }
         .product img {
-            max-width: 250px; /* Ajustez la largeur maximale selon vos besoins */
-            max-height: 2500px; /* Ajustez la hauteur maximale selon vos besoins */
+            max-width: 250px; /* Ajustez la largeur maximale de l'image */
+            max-height: 2500px; /* Ajustez la hauteur maximale de l'image */
             margin-right: 20px;
         }
-        
-    </style>
-
-   
+        .product-details {
+            flex: 1; /* Pour que le texte occupe tout l'espace restant */
+        }
+    </style>   
 </head>    
 
 <body>
