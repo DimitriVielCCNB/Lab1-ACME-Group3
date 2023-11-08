@@ -15,7 +15,7 @@ header {
     font-weight: bold;
     padding: 20px;
     background-color: #ffcc00;
-    height: 100px
+    height: 100px;
 }
 
 nav {
@@ -27,7 +27,7 @@ ul.top-list {
     display: flex;
     justify-content: space-around;
     padding: 10px;
-    font-size: 24px;  /* added by lahcen in 4th november*/
+    font-size: 18px;  /* added by lahcen in 4th november*/
     
 }
 
@@ -209,4 +209,15 @@ li a{
  /* added by lahcen in 4th november*/
  ul.my-list li a:hover{
     color: white;
+}
+
+ /* added by lahcen in 8th november*/
+
+#About {
+    font-size: 28px;
+    color: rgb(228, 140, 8);
+}
+
+p.paragraphe{
+ line-height: 2;
 }

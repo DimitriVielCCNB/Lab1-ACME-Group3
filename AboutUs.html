@@ -5,6 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us - ACME Co.</title>
     <link rel="stylesheet" href="Styles.css"> 
+
+    <style>
+        /* Utilisez CSS pour styliser les paires de noms et d'images */
+        .nom-image-paire {
+            display: inline-block; /* Afficher les éléments en ligne */
+            align-items: center; /* Aligner verticalement le texte et l'image */
+        }
+        .nom {
+            margin-right: 20px; /* Marge à droite pour l'espace entre le nom et l'image */
+            font-weight: bold; /* Texte en gras pour le nom */
+        }
+        .image {
+            max-width: 300px; /* Largeur maximale de l'image */
+            max-height: 300px; /* Hauteur maximale de l'image */
+        }
+    </style>
 </head>    
 
 
@@ -18,6 +34,7 @@
 
     <nav>
         <ul class="top-list">
+            <li><a href="index.html" target="_blank">Home</a></li>
             <li><a href="SignUp.html" target="_blank">Sign up here!</a></li>
             <li><a href="Explosifs.html" target="_blank">Explosifs</a></li>
             <li><a href="Heavyweights.html" target="_blank">Heavy Weights</a></li>
@@ -31,44 +48,63 @@
     </nav>
     <main>
         <section>
-            <h1>About Us</h1>
+            <h1 id="About">About Us</h1>
             <div class="about-content">
                 
-                <p>
+                <p class="paragraphe">
                     ACME Co. is a leading provider of innovative products and solutions that have been bringing laughter and excitement to people's lives for generations. Our commitment to quality and customer satisfaction has made us a trusted name in the industry. We take pride in our history and the iconic products we've created over the years. Join us as we continue to redefine innovation and bring fun into the world.
                 </p>
-                <p>
+                <p class="paragraphe">
                     At ACME Co., we believe in pushing the boundaries of creativity. Our talented team works tirelessly to bring imaginative and fun products to life. We invite you to explore our journey and get to know the people behind the scenes who make it all happen.
                 </p>
                 <br>
                 <p> Meet the team!</p>
                 <br>
-                <p>Lahcen</p> <img src="Maryssa Image/Lahcen.jpg" width="200" height="300">
-                <br><br>
-                <p>Agnes</p> <img src="Maryssa Image/Agnes.jpg" width="300" height="300">
-                <br><br>
-                <p>Arnaud</p> <img src="Maryssa Image/Arnaud.jpg" width="300" height="300">
-                <br><br>
-                <p>Maryssa</p> <img src="Maryssa Image/Maryssa.jpg" width="300" height="300">
-                <br><br><br><br>
-                <p> Four fellow first-year Cybersecurity students at CCNB Dieppe have embarked on an exciting venture beyond their academic pursuits. Hailing from diverse backgrounds, these students joined forces to create a website dedicated to the beloved TV show, Looney Tunes. Together, they bring a unique blend of technical skills and creative vision to not only explore the world of cyber security but also delve into the realm of e-commerce, offering fans of the show a platform to indulge in their favorite merchandise. Their collaborative effort is a testament to the versatility of their interests and skills, reflecting a promising journey in both cybersecurity and online entrepreneurship.</p>
-
-                <br><br><br><br>
+                
+              
             </div>
+            <div class="nom-image-paire">
+                <p class="nom">Lahcen</p>
+                <img class="image" src="Maryssa Image/Lahcen.jpg" width="200" height="300">
+            </div>
+        
+            <div class="nom-image-paire">
+                <p class="nom">Agnes</p>
+                <img class="image" src="Maryssa Image/Agnes.jpg" width="300" height="300">
+            </div>
+        
+            <div class="nom-image-paire">
+                <p class="nom">Arnaud</p>
+                <img class="image" src="Maryssa Image/Arnaud.jpg" width="300" height="300">
+            </div>
+        
+            <div class="nom-image-paire">
+                <p class="nom">Maryssa</p>
+                <img class="image" src="Maryssa Image/Maryssa.jpg" width="300" height="300">
+            </div>
+            <br><br><br><br>
+            <p class="paragraphe"> Four fellow first-year Cybersecurity students at CCNB Dieppe have embarked on an exciting venture beyond their academic pursuits. Hailing from diverse backgrounds, these students joined forces to create a website dedicated to the beloved TV show, Looney Tunes. Together, they bring a unique blend of technical skills and creative vision to not only explore the world of cyber security but also delve into the realm of e-commerce, offering fans of the show a platform to indulge in their favorite merchandise. Their collaborative effort is a testament to the versatility of their interests and skills, reflecting a promising journey in both cybersecurity and online entrepreneurship.</p>
+
         </section>
     </main>
 
-    <aside>
-        <ul class="my-list">
-            <li><a href="#">Join our Team and become a seller</a></li>
-            <li><a href="#">Contact Us</a></li>
-            
-        </ul>
-    </aside>
+   
 
     <footer>
-        <p>Welcome to ACME Co., your source for top-quality products. Discover more about us!</p>
-        <p>&copy; 2023 ACME Co. | Proud International Sellers - Worldwide</p>
-    </footer>
+  
+      
+        <div class="fixed" > 
+          <ul class="my-list">
+              <li><a href="JoinSeller.html">Join our Team and become a seller</a></li>
+              <li><a href="ContactUs.html">Contact Us</a></li>
+              <li><a href="AboutUs.html">About us</a></li>
+              
+        <ol> <li>ALL RIGHTS RESERVED © ACME CO.</li>
+          <li> UPDATED 2023</li>
+          <li>PROUD INTERNATIONAL SELLERS - WORLDWIDE</li> 
+      </ol>
+  </div>
+      </footer>
+  
 </body>
 </html>
