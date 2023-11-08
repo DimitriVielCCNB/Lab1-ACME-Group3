@@ -241,3 +241,12 @@ p.paragraphe{
 #message{
     margin-left: 69px;
 }
+.container1 {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid  #f6b154;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
