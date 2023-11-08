@@ -6,9 +6,38 @@
     <title>ACME Co. </title>
     <link rel="stylesheet" href="Styles.css">
 
-
+    <style>
    
-</head>    
+        
+        .container1 {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f6b154;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            color: #a00400;
+        }
+        .container1 h1 {
+           text-align: center;
+           margin-left: 520px;
+           padding-bottom: 20px;
+
+        }
+        .product {
+            display: flex; /* Permet d'aligner l'image et le texte sur la même ligne */
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            color: #a00400;
+        }
+    
+
+    </style>   
+</head>       
 
 <body>
 
@@ -46,28 +75,40 @@
             <img src="Bunny.jpg" width="500" height="300">
         
             
-            <div class="item-list">
+            <div class="container1">
                 <h3>Items for Sale:</h3>
                 <ul>
-                    <li><strong>Power Crayon</strong> - $129.99</li>
-                    <br>
+                    
                     <img src="runnercrayon.jfif" width="400" height="200">
-                    <br><br>
-                    <li><strong>Anvil Destroyer</strong> - $1119.99</li>
-                    <br>
+                    <div>
+                        <p><a id="article" href="#" style="color:#a00400;">Power Crayon</a> </p>
+                        <p id="price"><br>$129.99<br>+ free shipping from Canada</p>
+                    </div>
+                    
                     <img src="building1.jfif" width="400" height="200">
-                    <br><br>
-                    <li><strong>Squish A-Crane</strong> - $1149.99</li>
-                    <br>
+                        <div>
+                            <p><a id="article" href="#" style="color:#a00400;">Anvil Destroyer</a></p>
+                            <p id="price"><br>$1119.99<br>+ free shipping from Canada</p>
+                        </div>
+                    
+                    
                     <img src="building2.jfif" width="400" height="200">
-                    <br><br>
-                    <li><strong>Grip Builder</strong> - $1299.99</li>
-                    <br>
+                        <div>
+                            <p><a id="article" href="#" style="color:#a00400;">Squish A-Crane</a></p>
+                            <p id="price"><br>$1149.99<br>+ free shipping from Canada</p>
+                        </div>
+                    
                     <img src="building3.jfif" width="400" height="200">
-                    <br><br>
-                    <li><strong>Tip's A Top's</strong> - $1339.99</li>
-                    <br>
+                        <div>
+                            <p><a id="article" href="#" style="color:#a00400;">Grip Builder</a></p>
+                            <p id="price"><br>$1249.99<br>+ free shipping from Canada</p>
+                        </div>
+                    
                     <img src="builder4.jfif" width="400" height="200">
+                        <div>
+                            <p><a id="article" href="#" style="color:#a00400;">Tip's A Top's</a></p>
+                            <p id="price"><br>$1734.99<br>+ free shipping from Canada</p>
+                        </div>
                 </ul>
 
         </section>
@@ -75,7 +116,7 @@
 
     <footer>
   
-        <!--   added by lahcen in 4th november -->
+
         <div class="fixed" > 
           <ul class="my-list">
               <li><a href="#">Join our Team and become a seller</a></li>
