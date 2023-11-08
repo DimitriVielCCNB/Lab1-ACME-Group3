@@ -38,24 +38,38 @@
             }
 
             .comment-box {
-
-                /*: absolute; /* Border styling; top: 20*/
-                margin-top: 100px;
-                right: 10px;
+                width: 500px; /* Adjust the width as needed */
+                padding: 20px; /* Add some padding for spacing */
                 border: 2px solid #000; /* Border styling */
-                padding: 10px;
-                background-color: #f0f0f0; /* Background color */
-                max-width: 300px; /* Adjust the width as needed */
-                box-shadow: 3px 3px 5px #888888; /* Add a shadow for better visibility */
+                background-color: black; /* Background color */
+                box-shadow: 3px 3px 5px black; /* Add a shadow for better visibility */
             }
-
-            .comment-box form {
-                margin: 0;
+            
+            .comment-box label {
+                display: block; /* Make labels take full width */
+                font-weight: bold; /* Make labels bold */
             }
-
-            .comment-box h2 {
-                margin: 0;
+            
+            .comment-box input[type="text"],
+            .comment-box textarea {
+                width: 100%; /* Make input and textarea take the full width of the comment box */
+                padding: 10px; /* Add padding for spacing */
+                margin-bottom: 10px; /* Add margin to separate input elements */
             }
+            
+            .comment-box input[type="submit"] {
+                background-color: #333;
+                color: white;
+                border: black ;
+                border-radius: 10px;
+                padding: 10px 15px;
+                cursor: pointer;
+            }
+            
+            .comment-box input[type="submit"]:hover {
+                background-color: black;
+            }
+            
 
 
 
@@ -79,18 +93,18 @@
 
 
             <div class="comment-box">
-
                 <h2>Leave a Comment</h2>
                 <form>
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="name" required><br><br>
-
+            
                     <label for="comment">Comment:</label><br>
-                    <textarea id="comment" name="comment" rows="4" cols="50" required></textarea><br><br>
-
+                    <textarea id="comment" name="comment" rows="8" cols="40" required></textarea><br><br>
+            
                     <input type="submit" value="Submit">
                 </form>
             </div>
+            
         </div>
     </header>
 
@@ -119,7 +133,7 @@
 
             <div class="search-container">
                 <form action="/search" method="get">
-                <input type="text" placeholder="Search..." name="search">
+                <input type="text" placeholder="Search for a product here" name="search">
                 <button type="submit"><i class="fa fa-search"></i></button>
                 </form>
                 </div>
