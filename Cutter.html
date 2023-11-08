@@ -6,8 +6,58 @@
     <title>ACME Co. </title>
     <link rel="stylesheet" href="Styles.css">
 
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color:#f6b154;
+        }
+        header {
+           
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        .container1 {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f6b154;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            color: #a00400;
+        }
+        .container1 h1 {
+           text-align: center;
+           margin-left: 400px;
+           padding-bottom: 20px;
 
-   
+        }
+        .product {
+            display: flex; /* Permet d'aligner l'image et le texte sur la même ligne */
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            color: #a00400;
+        }
+        .product img {
+            max-width: 250px; /* Ajustez la largeur maximale de l'image */
+            max-height: 2500px; /* Ajustez la hauteur maximale de l'image */
+            margin-right: 20px;
+        }
+        .product-details {
+            flex: 1; /* Pour que le texte occupe tout l'espace restant */
+        }
+        h1{
+            font-weight: bold;
+            font-size: 30px; 
+            color: #f48608;
+            margin-bottom: 10px;
+            position: center;
+        }
+    </style>   
 </head>    
 
 <body>
@@ -16,16 +66,9 @@
         <img src="Looney.jfif" width="200" height="100">
         <div class="description">
             <br><br><br><br><br>
-            <br><br><br><br><br>
-            <p>
-                This diabolical Looney Tunes mega-corp responsible for falling anvils and other humorous disasters has created some of our best memories of cartoon mischief. In the show, Acme Corp produces everything from TNT to explosive tennis balls.
-            </p>
+            
         </div>
     </header>
-        
-        
-    </header>
-
     <nav>
         <ul class="top-list">
             <li><a href="index.html" target="_blank">Home</a></li>
@@ -42,35 +85,59 @@
     </nav>
 
     <main>
-        <section>
-            <br><br><br><br><br><br><br><br><br>
-            <img src="Bunny.jpg" width="500" height="300">
-            
-            
-            
-            
-            
+        <div>
+            <h1> Premium Collection Of High-Quality.</h1>
+      </div> 
+      <br>
+        <div class="main">
+             <div class="product" >
+                <img src="images_tunes/OIP_3.jpg"  width="500" height="300">
+                <div class="description">
+                <h2>Extra Cutter </h2>  
+                <p><i> </i> <br>$25<br>Easy to handle and very sharp multi-use. 
+                </p>
+             </div>
+        </div>
+        <br>
+             <div class="product">
+                <img src="images_tunes/OIP_6.jpg" width="500" height="300">
+                <div class="description">
+                <h2> Max Cutter</h2>
+                <p><i> Mill cutter</i> <br>$15<br>Suitable for all types of household needs </p>
+             </div>
+        </div>
+        <br>
+             <div class="product">
+                <img src= "images_tunes/OIP_7.jpg" width="500" height="300" >
+                <div class="description">
+                <h2>Invicible Cutter</h2>
+                <p><i>bugs bunny secret </i> <br>$100<br>invisible item only for premium customers</p>
 
-            <br><br><br><br><br><br><br><br>
-        </section>
+             </div>
+        
+        </div>
+
     </main>
 
 
 
-    <footer>
+   
+<footer>
   
       
-        <div class="fixed" > 
-          <ul class="my-list">
-              <li><a href="JoinSeller.html">Join our Team and become a seller</a></li>
-              <li><a href="ContactUs.html">Contact Us</a></li>
-              <li><a href="AboutUs.html">About us</a></li>
-              
-        <ol> <li>ALL RIGHTS RESERVED © ACME CO.</li>
-          <li> UPDATED 2023</li>
-          <li>PROUD INTERNATIONAL SELLERS - WORLDWIDE</li> 
-      </ol>
-  </div>
-      </footer>
+    <div class="fixed" > 
+      <ul class="my-list">
+          <li><a href="JoinSeller.html">Join our Team and become a seller</a></li>
+          <li><a href="ContactUs.html">Contact Us</a></li>
+          <li><a href="AboutUs.html">About us</a></li>
+          
+    <ol> <li>ALL RIGHTS RESERVED © ACME CO.</li>
+      <li> UPDATED 2023</li>
+      <li>PROUD INTERNATIONAL SELLERS - WORLDWIDE</li> 
+  </ol>
+</div>
+  </footer>
 </body>
 </html>
+        
+
