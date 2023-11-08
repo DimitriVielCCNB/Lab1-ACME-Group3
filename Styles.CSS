@@ -210,3 +210,14 @@ li a{
  ul.my-list li a:hover{
     color: white;
 }
+
+ /* added by lahcen in 8th november*/
+
+#About {
+    font-size: 28px;
+    color: rgb(228, 140, 8);
+}
+
+p.paragraphe{
+ line-height: 2;
+}
