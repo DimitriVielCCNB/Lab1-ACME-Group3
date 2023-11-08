@@ -60,12 +60,6 @@ h1 {
     display: inline; 
 }
 
-
-.form-group {
-    margin-bottom: 15px;
-}
-
-
 main {
     background-color: #fff;
     /* padding: 20px; */
@@ -76,20 +70,26 @@ main {
 
 .form-group {
     margin-bottom: 15px;
+   
+
 }
 
 
 label {
     display: block; 
     font-weight: bold;
+    color: #a00400;  /* added by lahcen in 7th november*/
+    margin-right: 10px; /* Adds margin to the right of the label */
 }
-
+label, input {
+    display: inline-block; /* added by lahcen in 7th november*/
+}
 input[type="text"],
 input[type="tel"],
 input[type="email"],
 textarea,
 select {
-    width: 100%;
+    width: 10%;  /* Modified by lahcen in 7th november to minimise text email*/
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -98,7 +98,9 @@ select {
 
 button {
     padding: 10px 20px;
-    background-color: #0077B5;
+    margin-left: 90px;
+/*     background-color: #0077B5; */
+    background-color: #f6b154;
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -112,7 +114,7 @@ section {
     
 }
 
-.special-text {
+.special-text,h5 {
     font-weight: bold;
     font-size: 1.2em;
     padding: 10px;
@@ -131,7 +133,7 @@ ul.my-list li {
     padding: 10px;
 }
 
-ul.my-list a {
+ul.my-list a ,p,h2,h5{
     text-decoration: none;
     color: #a00400;  /* added by lahcen in 4th november*/
     font-weight: bold;
@@ -152,7 +154,10 @@ footer {
     flex-direction: column;
     text-align: center;
 }
-
+pre {
+    text-align: justify;
+  
+}
 nav {
     background-color:#fd872c;
     color: #fff;
