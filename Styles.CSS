@@ -213,11 +213,31 @@ li a{
 
  /* added by lahcen in 8th november*/
 
-#About {
+.About {
     font-size: 28px;
     color: rgb(228, 140, 8);
 }
 
 p.paragraphe{
  line-height: 2;
+}
+.Contact_Form,label{
+    margin: 0px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+#formulaire {
+    width: 300px; /* Ajustez la largeur du formulaire selon vos besoins */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: #f9f9f9;
+    margin-left: 0;
+    margin: 0 auto;
+}
+#name,#email,#message{
+    width: 200px;
+}
+#message{
+    margin-left: 69px;
 }
