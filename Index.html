@@ -5,26 +5,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ACME Co. </title>
     <link rel="stylesheet" href="Styles.css">
-
-
    
-</head>    
+     
+        <style>
+            
+            .search-container {
+                position: absolute;
+                top: 10px; 
+                right: 30px; 
+            }
+     
+            .search-container input[type="text"] {
+                padding: 20px;
+                width: 300px;
+                border: none;
+                border-radius: 10px;
+                
+            }
+     
+            .search-container button {
+                background-color: #333;
+                color: white;
+                border: none;
+                border-radius: 10px;
+                padding: 10px 15px;
+                cursor: pointer;
+            }
+     
+            .search-container button:hover {
+                background-color: #555;
+        
+            }
+
+            .comment-box {
+                
+                /*: absolute; /* Border styling; top: 20*/
+                margin-top: 100px;
+                right: 10px;
+                border: 2px solid #000; /* Border styling */
+                padding: 10px;
+                background-color: #f0f0f0; /* Background color */
+                max-width: 300px; /* Adjust the width as needed */
+                box-shadow: 3px 3px 5px #888888; /* Add a shadow for better visibility */
+            }
+            
+            .comment-box form {
+                margin: 0;
+            }
+            
+            .comment-box h2 {
+                margin: 0;
+            }
+
+        
+          
+    </style>
+    </head>
+   
 
 <body>
 
     <header>
         <img src="Looney.jfif" width="200" height="100">
-        <div class="description">
+        
+        <div class="description-box">
             <br><br><br><br><br>
             <br><br><br><br><br>
             <p>
-                This diabolical Looney Tunes mega-corp responsible for falling anvils and other humorous disasters has created some of our best memories of cartoon mischief. In the show, Acme Corp produces everything from TNT to explosive tennis balls.
+                "The Looney Tunes Acme Co., a whimsical and fictitious corporation, has left an indelible mark on the world of animated entertainment. Founded in the vibrant world of Looney Tunes, this iconic company has been responsible for producing a vast array of comical and often absurd products, from exploding tennis balls to gravity-defying anvils. Since its inception, Acme Co. has delighted audiences of all ages with its humorous disasters, forming the backdrop for countless classic moments in animation. Through its creative chaos and imaginative inventions, the Looney Tunes Acme Co. has secured a timeless legacy in the hearts of cartoon enthusiasts and continues to bring laughter and joy to the world.".
             </p>
+            
+            </div>
+        
+            
+            <div class="comment-box">
+                
+                <h2>Leave a Comment</h2>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+        
+                    <label for="comment">Comment:</label><br>
+                    <textarea id="comment" name="comment" rows="4" cols="50" required></textarea><br><br>
+        
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
         </div>
     </header>
         
-        
-    </header>
+    
 
     <nav>
         <ul class="top-list">
@@ -43,16 +113,16 @@
     <main>
         <section>
             <br><br><br><br><br><br><br><br><br>
-            <img src="Bunny.jpg" width="500" height="300">
-            
-            
-            
-            
-            <p class="special-text"></p>
+           
 
-            <p>
-               
-            </p>
+          
+            
+            <div class="search-container">
+                <form action="/search" method="get">
+                <input type="text" placeholder="Search..." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+                </div>
 
             <p class="special-text"></p>
 
