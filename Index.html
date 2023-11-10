@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ACME Co-have fun </title>
-    <link rel="stylesheet" href="Styles.css">
+    <link rel="stylesheet" href="/css/Styles.CSS">
 
 
         <style>
@@ -70,7 +70,19 @@
                 background-color: black;
             }
             
-
+.comm {
+    display: inline-flex;
+   /*float: left; */
+}
+.video{
+    float: right;
+    height: 477px;
+    margin-right: 55px;
+   
+}
+iframe{
+    border-radius: 20px;
+}
 
 
     </style>
@@ -80,7 +92,7 @@
 <body>
 
     <header>
-        <img src="Looney.jfif" width="200" height="100">
+        <img src="/images/Looney.jfif" width="200" height="100">
 
         <div class="description-box">
             <br><br><br><br><br>
@@ -91,21 +103,7 @@
 
             </div>
 
-
-            <div class="comment-box">
-                <h2>Leave a Comment</h2>
-                <form>
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required><br><br>
-            
-                    <label for="comment">Comment:</label><br>
-                    <textarea id="comment" name="comment" rows="2" cols="15" required></textarea><br>
-            
-                    <input type="submit" value="Submit">
-                </form>
-            </div>
-            
-        </div>
+           
     </header>
 
 
@@ -137,12 +135,30 @@
                 <button type="submit"><i class="fa fa-search"></i></button>
                 </form>
                 </div>
+<div class="container1">
 
-        
 
-            <a href="url"><iframe width="560" height="315" img align="right" src="https://www.youtube.com/embed/1EevEHh58B0?si=wu1j-Wkgw9QwszIc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></a>
+        <div class="comm ">
+            <div id="formulaire">
+                <h2>Leave a Comment</h2><br><br>
+                    <form action="submit_form.php" method="post">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required><br>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required /><br><br><br>
+                        <label for="message">Comment</label>
+                        <textarea id="message" name="message" required></textarea><br>
+                        <br><br><br><br>
+                        <button type="submit">Submit</button>
+                    </form>
+            </div>
+        </div>
+    <div class="video"><a href="url"><iframe width="800px" height="477px"   src="https://www.youtube.com/embed/1EevEHh58B0?si=wu1j-Wkgw9QwszIc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></a>
+    </div>    
+         
+                
+    </div>
             
-        
 
             <br><br><br><br><br><br><br><br><br><br><br>
         </section>
