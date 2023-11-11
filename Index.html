@@ -73,18 +73,58 @@
 .comm {
     display: inline-flex;
    /*float: left; */
+   width: 30%;
+   
 }
 .video{
     float: right;
     height: 477px;
-    margin-right: 55px;
+    margin-right: 120px;
+    width: 60%;
    
 }
 iframe{
     border-radius: 20px;
+    width: 100%;
+}
+form{
+    margin-left: -50;
 }
 
-
+/* responsive layout*/
+@media screen and (max-width:1200px){
+    section {
+        text-align: left; 
+      display: inline-block; 
+      width: 100%;
+    }
+    .video {
+        float: right !important;
+        height: 477px;
+        margin-right: 1%;
+        margin-left: 5px;
+        width: auto;
+    }
+    iframe{
+        border-radius: 20px;
+        width: 100%;
+    }
+    .comm {
+    
+       float: left; 
+       width: auto;
+       
+    }
+    .container1 {
+        width: 80%;
+       
+        padding: 20px;
+        background-color: #fff;
+        border: 1px solid  #f6b154;
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+}
     </style>
     </head>
 
@@ -118,7 +158,8 @@ iframe{
             <li><a href="Launcher.html" target="_blank">Launchers</a></li>
             <li><a href="ModeOfTransportation.html" target="_blank">Transportation Mode</a></li>
             <li><a href="BuildingCrayons.html" target="_blank">Building/Crayons</a></li>
-            <li><a href="RealityDistortingEquipment.html" target="_blank">Reality Distorting Equipments</a></li>       
+            <li><a href="RealityDistortingEquipment.html" target="_blank">Reality Distorting Equipments</a></li>   
+            <li><a href="#" >Fr / En</a></li>      
         </ul>
     </nav>
 
@@ -132,14 +173,15 @@ iframe{
             <div class="search-container">
                 <form action="/search" method="get">
                 <input type="text" placeholder="Search for a product here" name="search">
-                <button type="submit"><i class="fa fa-search"></i></button>
+                <button type="submit"><i class="fa fa-search"> Search </i></button>
                 </form>
+              
                 </div>
 <div class="container1">
 
 
         <div class="comm ">
-            <div id="formulaire">
+            <div id="formulaire-home">
                 <h2>Leave a Comment</h2><br><br>
                     <form action="submit_form.php" method="post">
                         <label for="name">Name:</label>
@@ -153,11 +195,11 @@ iframe{
                     </form>
             </div>
         </div>
-    <div class="video"><a href="url"><iframe width="800px" height="477px"   src="https://www.youtube.com/embed/1EevEHh58B0?si=wu1j-Wkgw9QwszIc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></a>
-    </div>    
+        <div class="video"><iframe  height="477px"   src="https://www.youtube.com/embed/1EevEHh58B0?si=wu1j-Wkgw9QwszIc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>    
          
                 
-    </div>
+</div>
             
 
             <br><br><br><br><br><br><br><br><br><br><br>
